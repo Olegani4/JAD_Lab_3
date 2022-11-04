@@ -14,7 +14,6 @@ public class PersonProcessingWithStreams {
         listOfPersons.add(new Person("David", 22));
 
         PersonEvaluator persEval = new PersonEvaluator(listOfPersons);
-
         persEval.findAndPrint("P");
         persEval.findAndPrint(18);
         persEval.groupAndPrint(new int[]{22, 13, 16});
